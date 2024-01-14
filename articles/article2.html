@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.Css">
+    <title>Sites touristiques au Sénegal</title>
+</head>
+<body>
+    <header>
+        <h1>Découvertes sites touristiques au Sénegal</h1>
+        <p>Date de publication : 30 Décembre 2023</p>
+    </header>
+
+    <article>
+        <p>
+            Le Sénégal offre une richesse culturelle et naturelle exceptionnelle . Des visiteurs du monde entier saluent la beauté de Gorée , de la ville de Saint-Louis , la diversité du parc national de la Langue de Barbarie . Les commentaires soulignent souvent la chaleur humaine des sénégalais et la découverte de l'histoire à travers des sites tels que la Maison des Exclaves .  
+        </p>
+
+    <div class="images">
+        <img src="/images/istockphoto-1429121602-612x612.jpg" alt="L'île de Gorée" height="394" width="700">
+        <p>Gorée , avec ses rues pavées et ses maisons colorées , est souvent saluée pour son ambiance historique et émotionnelle , offrant aux visiteurs une réflexion profonde sur le passé lié à la traite des exclaves .
+        </p>
+
+        <img src="/images/pont-faidherbe-saint-louis.jpg" alt="La ville de Saint-Louis" height="394" width="700">
+        <p>La ville de Saint-Louis , classée au patrimoine mondial de l'UNESCO , séduit par son architecture coloniale préservée et l'accueil chalereux de ses habitants .
+        </p>
+
+        <img src="/images/Parc-animaux-visite-tourisme-sauvage-oiseaux-LEUKSENEGAL-Dakar-Senegal-Afrique-langue-barbarie.jpg" alt="Parc national de la Langue de Barbarie" height="394" width="700">
+    </div>
+        <p>Le parc national de la Langue de Barbarie est vanté pour sa biodiversité unique , abritant une variété d'oiseaux et de paysages côtiers à couper le souffle . Les amateurs de nature apprécient particulièrement l'opportunité de découvrir la faune exceptionnelle de cette région préservée .
+        </p>
+
+        <div class="comment-container">
+            <h2>Laissez votre avis</h2>
+
+            <form action="traitement_commentaire.php" method="post">
+                <label for="nom">Votre nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+                <label for="commentaire">Votre commentaire:</label>
+                <textarea name="commentaire" id="commentaire" cols="50" rows="4" placeholder="Saisissez votre commentaire ici " required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+            <!-- Affichage des commentaires -->
+            <div class="comment-section">
+                <div class="commentaire">
+                    <strong>Jean Luc Dacruz:</strong>J'aime bien le contenu de cet article 
+                </div>
+                <!--Ajoutez d'autres commentaires ici -->
+            </div>
+        </div>
+
+    </article>
+
+    <footer>
+        <p><a href="/index.html">Revenir à l'accueil</a></p>
+    </footer>
+</body>
+</html>
